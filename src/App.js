@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <h1>BestEst Shop</h1>
+    <nav>
+      <ul>
+        <li>Login</li>
+        <li>Home</li>
+        {/* products - neprisiloginus grazina i logina */}
+        <li>Shopping Cart</li>  
+        {/* pirkejo krepselis */}
+        <li>Users</li>
+        <li>Orders</li> 
+        {/* adminui ir manageriui atskirai vartotojui */}
+        <li>Shop Management</li>
+        {/* adminui ir manageriui */}
+        <li>Login</li>
+      </ul>
+    </nav>
+    </>
+    
+
+
+  )
 }
 
 export default App;
